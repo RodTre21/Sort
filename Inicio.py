@@ -252,11 +252,11 @@ def beneficios():
     """)
 
 page_names_to_funcs = {
-    "Inicio ♻️": inicio,
+#    "Inicio ♻️": inicio,
     "Tira tu basura 🗑️": tira_basura,
-    "Puntos de recoleccion 🚛": puntos_recoleccion,
-    "Características y beneficios 🌱": beneficios
+#    "Puntos de recoleccion 🚛": puntos_recoleccion,
+#    "Características y beneficios 🌱": beneficios
 }
 
-demo_name = st.sidebar.selectbox("¿Qué quieres hacer?:", page_names_to_funcs.keys())
+#demo_name = st.sidebar.selectbox("¿Qué quieres hacer?:", page_names_to_funcs.keys())
 page_names_to_funcs[demo_name]()
